@@ -1,4 +1,3 @@
-import calculadora.Calculadora;
 import triangulo.Triangulo;
 import java.util.Scanner;
 

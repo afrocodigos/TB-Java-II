@@ -1,4 +1,6 @@
-import calculadora.Calculadora;
+package calculadora.application;
+
+import calculadora.entities.Calculadora;
 import java.util.Scanner;
 
 public class testaCalculadora {

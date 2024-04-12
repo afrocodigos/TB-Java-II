@@ -1,4 +1,6 @@
-import triangulo.Triangulo;
+package triangulo.application;
+
+import triangulo.entities.Triangulo;
 import java.util.Scanner;
 
 public class testaTriangulo {

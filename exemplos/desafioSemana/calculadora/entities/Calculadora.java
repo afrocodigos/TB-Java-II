@@ -1,4 +1,4 @@
-package calculadora;
+package calculadora.entities;
 
 public class Calculadora {
     public static double num1;

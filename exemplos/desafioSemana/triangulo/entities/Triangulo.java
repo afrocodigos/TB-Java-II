@@ -1,4 +1,4 @@
-package triangulo;
+package triangulo.entities;
 
 public class Triangulo {
     public static double lado1;

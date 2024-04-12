@@ -71,15 +71,14 @@ public class testaSistemaBiblioteca {
         System.out.println("Testando devolução de livro");
         System.out.println("--------------------------------------------------------------");
         usuario1.solicitaDevolucao(funcionario1, livro1);
+        usuario2.solicitaDevolucao(funcionario1, livro2);
         usuario2.solicitaDevolucao(funcionario1, livro4);
         biblioteca.mostraLivros();
 
         System.out.println("--------------------------------------------------------------");
         System.out.println("Testando verificação de livros com o usuário");
         System.out.println("--------------------------------------------------------------");
-        System.out.printf("Livros com o usuário '%s (id %d)':", usuario1.nomeUsuario, usuario1.identificacaoUsuario);
-        System.out.println(usuario1.livrosEmprestados);
-        System.out.printf("Livros com o usuário '%s (id %d)':", usuario2.nomeUsuario, usuario2.identificacaoUsuario);
-        System.out.println(usuario2.livrosEmprestados);
+        usuario1.getLivrosEmprestados();
+        usuario2.getLivrosEmprestados();
     }
 }

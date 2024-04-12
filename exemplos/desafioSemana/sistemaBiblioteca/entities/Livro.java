@@ -13,7 +13,7 @@ public class Livro {
         this.autorLivro = autorLivro;
         this.anoPublicacaoLivro = anoPublicacaoLivro;
         this.statusLivro = "Disponível";
-        System.out.printf("Livro '%s' criado\n", tituloLivro);
+        System.out.printf("Livro '%s' adicionado\n", tituloLivro);
     }
 
     public void mostraInformacaoLivro(){

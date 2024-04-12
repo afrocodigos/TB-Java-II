@@ -36,7 +36,6 @@ public class Usuario {
 
         if (livro.getStatusLivro() == "Disponível"){
             funcionario.reservaLivro(livro);
-            this.livrosEmprestados.add(livro);
         }
         else {
             System.out.println("Desculpe, o livro está indisponível no momento");

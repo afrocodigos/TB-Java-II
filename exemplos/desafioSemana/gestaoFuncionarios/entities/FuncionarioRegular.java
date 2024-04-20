@@ -7,7 +7,12 @@ public class FuncionarioRegular extends Funcionario{
 
     @Override
     public double calcularSalario() {
-        setSalarioFuncionario(5900.00);
+        setSalarioFuncionario(5900.00 * (1 + (getBonusSalario() / 100)));
         return getSalarioFuncionario();
+    }
+
+    @Override
+    public void falarCargo() {
+        System.out.println("Cargo: Funcionário regular");
     }
 }

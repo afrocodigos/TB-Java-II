@@ -7,7 +7,12 @@ public class Gerente extends Funcionario{
 
     @Override
     public double calcularSalario() {
-        setSalarioFuncionario(14000.00);
+        setSalarioFuncionario(14000.00 * (1 + (getBonusSalario() / 100)));
         return getSalarioFuncionario();
+    }
+
+    @Override
+    public void falarCargo() {
+        System.out.println("Cargo: Gerente");
     }
 }

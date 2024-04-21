@@ -14,4 +14,4 @@ Desenvolver um programa que calcule a soma dos números primos dentro de um inte
 
 ## Como executar
 
-Execute o arquivo [testaNumeroPrimo.java](.\testaNumeroPrimo.java)
+Execute o arquivo [testaNumeroPrimo.java](./testaNumeroPrimo.java)

@@ -14,4 +14,4 @@ Desenvolver uma classe Calculadora que execute as operações de somar, subtrair
 
 ## Como executar
 
-Execute o arquivo 'testaCalculadora.java', contido dentro da pasta application
+Execute o arquivo [testaCalculadora.java](.\application\testaCalculadora.java)

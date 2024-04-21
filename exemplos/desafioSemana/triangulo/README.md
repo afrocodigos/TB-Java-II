@@ -29,4 +29,4 @@ Desenvolver uma classe que identifique o tipo de triângulo a partir dos valores
 
 ## Como executar
 
-Execute o arquivo 'testaTriangulo.java', contido dentro da pasta application
+Execute o arquivo [testaTriangulo.java](.\application\testaTriangulo.java)

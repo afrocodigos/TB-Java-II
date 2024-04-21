@@ -15,4 +15,4 @@ Tais funcionários devem ser modeladas como subclasses da super classe Funcionar
 
 ## Como executar
 
-Execute o arquivo 'testaGestaoFuncionarios.java', contido dentro da pasta application.
+Execute o arquivo [testaGestaoFuncionarios.java](.\application\testaGestaoFuncionarios.java)

@@ -12,4 +12,4 @@ Desenvolver um sistema de gestão de biblioteca, contendo classes para funcioná
 
 ## Como executar
 
-Execute o arquivo [testaSistemaBiblioteca.java](.\application\testaSistemaBiblioteca.java)
+Execute o arquivo [testaSistemaBiblioteca.java](./application/testaSistemaBiblioteca.java)
